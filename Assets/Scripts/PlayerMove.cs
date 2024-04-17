@@ -34,10 +34,7 @@ public class PlayerMove : MonoBehaviour
         {
             transform.Translate(Vector3.right * playerSpeed * Time.deltaTime);
         }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector3.right * playerSpeed * Time.deltaTime);
-        }
+        
         if (Input.GetKey(KeyCode.Q))
         {
             changeColorComponent.colorChangeBlack();
